@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+body {
+  background: url(../bg-intro-desktop.png), #f27776;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-50 {
+  flex: 0 1 50%;
+}
+
+/* Specific Styles */
+
+/* Article */
+
+article {
+  color: white;
+  padding: 50px;
+}
+
+article h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+article p {
+  line-height: 25px;
+}
+
+/* Form */
+
+.form-section legend {
+  color: rgb(219, 212, 247);
+  background-color: #5d54a3;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 6px 0px 0px rgb(219, 102, 102);
+}
+
+.form-section strong {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.form-section form {
+  background: white;
+}
+
+form {
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 18px;
+  margin: 8px 0;
+  border: 0;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 3px;
+  outline: 0;
+  font-weight: 900;
+  font-size: 15px;
+  color: rgb(75, 75, 75);
+}
+
+form input::-webkit-input-placeholder {
+  color: grey;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+form input:focus {
+  border: 2px solid #afaabe;
+  border-bottom: 1px solid rgb(0, 0, 100);
+}
+
+.form-section button {
+  width: 100%;
+  background: #61cd8b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 18px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  box-shadow: 0px 4px 0px 0px #55b77e;
+}
+
+small {
+  color: rgb(189, 189, 189);
+  font-size: 12px;
+}
+
+small span {
+  margin-left: 5px;
+  color: #d99294;
+}

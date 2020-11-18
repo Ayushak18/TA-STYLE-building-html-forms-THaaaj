@@ -1,0 +1,66 @@
+<!-- - Create a forms according to the layout shown below.
+
+![Building HTML forms Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-1.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assingment 1 | HTML Forms</title>
+
+    <!-- Link for stylesheet-->
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+
+    <!-- Link for fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container flex">
+          <article class="col-50">
+            <h1>Learn to code by watching others</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+          </article>
+
+          <div class="form-section col-50">
+            <legend>
+              <strong>Try it free for 7 days</strong> then $20/mo. thereafter
+            </legend>
+            <fieldset>
+              <form action="./index.html" method="GET">
+                <input type="text" name="First-Name" placeholder="First Name" />
+                <input type="text" name="Last-Name" placeholder="Last Name" />
+                <input
+                  type="email"
+                  name="Firs-Name"
+                  placeholder="Email Address"
+                />
+                <input type="password" name="Password" placeholder="Password" />
+                <button>Claim your free trail</button>
+                <small class="flex"
+                  >By clicking the button, you are agreeing to our
+                  <span>Terms and Services</span></small
+                >
+              </form>
+            </fieldset>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
