@@ -222,6 +222,11 @@ select {
   background: transparent;
 }
 
+
+.font-0{
+  font-size:0;
+}
+
 /* Specific Styles */
 
 /* Header Section */
@@ -388,12 +393,28 @@ label {
   color: #69c6ba;
 }
 
-.article-two .catalogue-article-text {
-  background-color: rgb(198, 105, 149);
+.flipped-section{
+  position:absolute;
+  right:40%;
+  z-index:1;
 }
 
-.article-two .catalogue-article-text button {
-  color: rgb(198, 105, 149);
+.flipped-img img{
+  position:relative;
+  left:100%;
+}
+
+.article-two .catalogue-article-text{
+  background-color:#C66995;
+}
+
+.article-two .btn{
+ color:#C66995;
+}
+
+.article-two .arrow div{
+  margin-left:0;
+  margin-right:5px;
 }
 
 /* Maps Section */
