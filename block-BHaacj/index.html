@@ -1,0 +1,309 @@
+<!-- - Create a page according to the layout shown below.
+
+![Building HTML forms Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-2.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Journey | Assignment-2</title>
+
+    <!-- Link for stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+
+    <!-- Link for google fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link for fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/67427b16f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="nav-container flex">
+        <div class="brand-section">
+          <a class="flex" href="#">
+            <img src="assets/logo.png" />
+            <h1>Journey</h1>
+          </a>
+        </div>
+        <nav class="header-nav-bar">
+          <ul class="flex">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Top Destinations</a></li>
+            <li><a href="#">Recommended Places</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-section-text flex">
+            <h1>LET'S BEGIN</h1>
+            <div class="circle"></div>
+            <div class="big-circle circle"></div>
+            <div class="circle"></div>
+            <p>We assist you to choose the best.</p>
+            <div class="down-arrow flex">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="booking-form">
+            <fieldset>
+              <form class="flex align-top align-stretch">
+                <div class="flex-48">
+                  <legend>Choose Your Destination</legend>
+                  <input
+                    type="text"
+                    placeholder="Type Your Destination"
+                    name="Destination"
+                  />
+                  <div class="flex date-section">
+                    <div>
+                      <legend>Check In Date</legend>
+                      <input
+                        type="text"
+                        placeholder="Check In"
+                        name="In Date"
+                      />
+                    </div>
+                    <div>
+                      <legend>Check Out Date</legend>
+                      <input
+                        type="text"
+                        name="Out Date"
+                        placeholder="Check Out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-48 person-section">
+                  <div class="flex align-top">
+                    <label>
+                      How many rooms?
+                      <select>
+                        <option>1 Room</option>
+                        <option>2 Room</option>
+                        <option>3 Room</option>
+                      </select>
+                    </label>
+                    <label>
+                      Adults
+                      <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </label>
+                    <label>
+                      Children
+                      <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="form-btn">
+                    <button class="btn btn-primary">Check Availability</button>
+                  </div>
+                </div>
+              </form>
+            </fieldset>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tag line Section -->
+      <section class="tag-line">
+        <article class="container">
+          <h4>Your <strong>Journey</strong> is our priority</h4>
+          <p>
+            Nihil quos proin duis, corporis maecenas, felis adipisicing
+            reprehenderit mollitia voluptate praesentium? Repellendus nostra
+            earum magnis! Dolores mus ac sem, nisl minus. Architecto id. Mollis
+            accusamus!
+          </p>
+          <button class="btn btn-primary">Continue Explore</button>
+        </article>
+      </section>
+
+      <!-- Catalogue -->
+      <section class="catalogue">
+        <article class="article-one flex">
+          <div class="flex-50">
+            <img src="assets/tm-img-01.jpg" alt="Catalogue Image One" />
+          </div>
+          <div class="catalogue-info flex flex-50">
+            <div class="arrow flex">
+              <div>
+                <i class="fas fa-chevron-circle-left"></i>
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+            <div class="catalogue-article-text">
+              <h4>Europe's Most Visited Places</h4>
+              <p>
+                Potenti. Euismod nostrud consectetur praesentium saepe earum?
+                Provident minus, nisl mi? Natus ligula varius nostrud eiusmod.
+                Ante erat fusce sodales optio necessitatibus metus laboris
+                voluptatum scelerisque nostrum cubilia, voluptatibus habitant
+                provident voluptatum dictum repellat litora quo, debitis,
+                habitasse arcu possimus iure?
+              </p>
+              <button class="btn btn-primary">Continue Reading</button>
+            </div>
+          </div>
+        </article>
+        <article class="article-two flex">
+          <div class="catalogue-info flex flex-50">
+            <div class="arrow flex">
+              <div>
+                <i class="fas fa-chevron-circle-left"></i>
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+            <div class="catalogue-article-text">
+              <h4>Europe's Most Visited Places</h4>
+              <p>
+                Potenti. Euismod nostrud consectetur praesentium saepe earum?
+                Provident minus, nisl mi? Natus ligula varius nostrud eiusmod.
+                Ante erat fusce sodales optio necessitatibus metus laboris
+                voluptatum scelerisque nostrum cubilia, voluptatibus habitant
+                provident voluptatum dictum repellat litora quo, debitis,
+                habitasse arcu possimus iure?
+              </p>
+              <button class="btn btn-primary">Continue Reading</button>
+            </div>
+          </div>
+          <div class="flex-50">
+            <img src="assets/tm-img-02.jpg" alt="Catalogue Image One" />
+          </div>
+        </article>
+        <article class="article-three flex">
+          <div class="catalogue-info flex flex-50">
+            <div class="arrow flex">
+              <div>
+                <i class="fas fa-chevron-circle-left"></i>
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+            <div class="catalogue-article-text">
+              <h4>Europe's Most Visited Places</h4>
+              <p>
+                Potenti. Euismod nostrud consectetur praesentium saepe earum?
+                Provident minus, nisl mi? Natus ligula varius nostrud eiusmod.
+                Ante erat fusce sodales optio necessitatibus metus laboris
+                voluptatum scelerisque nostrum cubilia, voluptatibus habitant
+                provident voluptatum dictum repellat litora quo, debitis,
+                habitasse arcu possimus iure?
+              </p>
+              <button class="btn btn-primary">Continue Reading</button>
+            </div>
+          </div>
+          <div class="flex-50">
+            <img src="assets/tm-img-03.jpg" alt="Catalogue Image One" />
+          </div>
+        </article>
+      </section>
+
+      <!-- Maps Section -->
+      <section class="maps">
+        <div class="flex">
+          <div class="maps-image">
+            <img src="./assets/africa.png" alt="Map One" />
+            <p>AFRICA</p>
+          </div>
+          <div class="maps-image">
+            <img src="./assets/antartica.png" alt="Map One" />
+            <p>ANTARTICA</p>
+          </div>
+          <div class="maps-image">
+            <img src="./assets/asia.png" alt="Map One" />
+            <p>ASIA</p>
+          </div>
+          <div class="maps-image maps-image-active">
+            <img src="./assets/australia.png" alt="Map One" />
+            <p>AUSTRALIA</p>
+          </div>
+          <div class="maps-image">
+            <img src="./assets/europe.png" alt="Map One" />
+            <p>EUROPE</p>
+          </div>
+          <div class="maps-image">
+            <img src="./assets/north-america.png" alt="Map One" />
+            <p>NORTH AMERICA</p>
+          </div>
+          <div class="maps-image">
+            <img src="./assets/south-america.png" alt="Map One" />
+            <p>SOUTH AMERICA</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hotel Section -->
+      <section class="hotel">
+        <div class="container">
+          <article class="flex">
+            <div class="hotel-article-img flex-30">
+              <img src="assets/tm-img-06.jpg" />
+            </div>
+            <div class="hotel-article-text flex-60">
+              <h4>ASIA RESORT HOTEL</h4>
+              <h6>Singapore</h6>
+              <p>Cras laborum laboriosam alias, quia neque. Vestibulum ea metus ultrices! Dolorem fermentum in cum rutrum suscipit cras do. Sem conubia rhoncus sollicitudin eros tellus. Anim pede maecenas ipsam, ullamco porttitor corporis reprehenderit. Quia vel animi minima! Lorem fringilla? Potenti at, facilisi fermentum itaque diamlorem? Doloribus aliquid voluptatum nunc! Occaecat mauris ac. Perspiciatis? Aperiam luctus, consectetur</p>
+            </div>
+            <div class="hotel-article-button">
+              <img src="assets/button-curve.png" alt="Curver Button">
+            </div>
+            <div class="hotel-article-link">
+              <h4>$440</h4>
+              <a href="#" >Continue Reading</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Maps Section -->
+
+      <section class="map">
+        
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>
